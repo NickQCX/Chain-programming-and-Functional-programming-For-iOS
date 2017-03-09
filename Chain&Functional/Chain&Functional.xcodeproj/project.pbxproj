@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB4637171E7191B800ADBB1C /* VerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4637161E7191B800ADBB1C /* VerifyView.m */; };
+		BB46371A1E7192C500ADBB1C /* VerifyPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4637191E7192C500ADBB1C /* VerifyPropertyManager.m */; };
 		BB77777B1E703BF7005BC808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB77777A1E703BF7005BC808 /* main.m */; };
 		BB77777E1E703BF7005BC808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB77777D1E703BF7005BC808 /* AppDelegate.m */; };
 		BB7777811E703BF7005BC808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7777801E703BF7005BC808 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB4637151E7191B800ADBB1C /* VerifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyView.h; sourceTree = "<group>"; };
+		BB4637161E7191B800ADBB1C /* VerifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyView.m; sourceTree = "<group>"; };
+		BB4637181E7192C500ADBB1C /* VerifyPropertyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyPropertyManager.h; sourceTree = "<group>"; };
+		BB4637191E7192C500ADBB1C /* VerifyPropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyPropertyManager.m; sourceTree = "<group>"; };
 		BB7777761E703BF7005BC808 /* Chain&Functional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chain&Functional.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB77777A1E703BF7005BC808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB77777C1E703BF7005BC808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB4637111E718E4400ADBB1C /* VerifyButton */ = {
+			isa = PBXGroup;
+			children = (
+				BB4637151E7191B800ADBB1C /* VerifyView.h */,
+				BB4637161E7191B800ADBB1C /* VerifyView.m */,
+				BB4637181E7192C500ADBB1C /* VerifyPropertyManager.h */,
+				BB4637191E7192C500ADBB1C /* VerifyPropertyManager.m */,
+			);
+			path = VerifyButton;
+			sourceTree = "<group>";
+		};
 		BB77776D1E703BF7005BC808 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +137,7 @@
 				BB7777AF1E703C26005BC808 /* NSMutableDictionary+Attributes.m */,
 				BB7777B01E703C26005BC808 /* UILabel+category.h */,
 				BB7777B11E703C26005BC808 /* UILabel+category.m */,
+				BB4637111E718E4400ADBB1C /* VerifyButton */,
 				BB7777821E703BF7005BC808 /* Main.storyboard */,
 				BB7777851E703BF7005BC808 /* Assets.xcassets */,
 				BB7777871E703BF7005BC808 /* LaunchScreen.storyboard */,
@@ -297,6 +315,8 @@
 				BB7777B31E703C26005BC808 /* NSMutableDictionary+Attributes.m in Sources */,
 				BB7777B21E703C26005BC808 /* NSMutableAttributedString+category.m in Sources */,
 				BB77777B1E703BF7005BC808 /* main.m in Sources */,
+				BB4637171E7191B800ADBB1C /* VerifyView.m in Sources */,
+				BB46371A1E7192C500ADBB1C /* VerifyPropertyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +552,7 @@
 				BB7777A51E703BF7005BC808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB7777A61E703BF7005BC808 /* Build configuration list for PBXNativeTarget "Chain&FunctionalTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +561,7 @@
 				BB7777A81E703BF7005BC808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB7777A91E703BF7005BC808 /* Build configuration list for PBXNativeTarget "Chain&FunctionalUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +570,7 @@
 				BB7777AB1E703BF7005BC808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
